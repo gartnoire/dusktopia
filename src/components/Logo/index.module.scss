@@ -1,0 +1,16 @@
+.logo {
+  &Link {
+    color: #ffffff;
+    display: inline-block;
+    text-indent: -123em;
+    width: 158px;
+    background-image: url("./images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &:hover,
+    &:visited {
+      color: #ffffff;
+    }
+  }
+}
