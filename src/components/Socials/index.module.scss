@@ -1,0 +1,27 @@
+.socialList {
+  display: flex;
+  gap: 2vw;
+
+  &Link {
+    color: #ffffff;
+    text-indent: -123rem;
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.7rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  &Discord {
+    background-image: url('./images/discord.svg');
+  }
+
+  &Twitter {
+    background-image: url('./images/twitter.svg');
+  }
+
+  &Medium {
+    background-image: url('./images/medium.svg');
+  }
+}
